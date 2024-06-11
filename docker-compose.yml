@@ -7,7 +7,6 @@ services:
       args:
         CLONE_URL: ${CLONE_URL}
         INTERNAL_PORT: ${INTERNAL_PORT}
-        ENTRY_POINT_NAME: ${ENTRY_POINT_NAME}
     container_name: ${CONTAINER_NAME}
     image: ${IMAGE_NAME}
     ports:
